@@ -33,4 +33,7 @@ public class EtsyHomePage {
     @FindBy(xpath ="//div[@class='wt-bg-white wt-display-block wt-pb-xs-2 wt-mt-xs-0']//span[@class='currency-value']")
     public List<WebElement> prices;
 
+
+
+
 }

@@ -75,5 +75,7 @@ public class EtsyAppSteps {
     public void user_validates_title(String title) {
         String actualTitle = driver.getTitle();
         Assert.assertEquals(title, actualTitle);
+
+
     }
 }
